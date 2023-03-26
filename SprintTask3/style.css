@@ -1,0 +1,53 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+}
+
+#pPrice {
+    font-family: "Arial Narrow", serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.d1 {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 215px;
+}
+
+#inPrice {
+    border: 1.5px lightgray solid;
+    padding: 7px 0 7px 10px;
+    width: 130px;
+}
+
+.inCurr {
+    border: 1.5px lightgray solid;
+    padding: 7px 0 7px 10px;
+    width: 200px;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.innerD1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#currency {
+    border: 1.5px lightgray solid;
+    padding: 4px;
+}
+
+.curr{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, serif;
+    margin-bottom: 5px;
+}

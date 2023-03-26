@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>alimingoi.kz</title>
+</head>
+<body>
+    <div class="content">
+        <div class="d1">
+            <p id="pPrice">Введите сумму:</p>
+            <div class="innerD1">
+                <input type="text" name="inPrice" id="inPrice">
+                <select name="currency" id="currency" onchange="changeCurr()">
+                    <option value="KZT" selected="selected">KZT</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+        </div>
+        <div class="d2">
+            <p class="curr">KZT (tenge)</p>
+            <input type="text" name="inCurrKZT" class="inCurr" id="inCurrKZT" readonly="readonly">
+        </div>
+        <div class="d2">
+            <p class="curr">USD (dollar)</p>
+            <input type="text" name="inCurrUSD" class="inCurr" id="inCurrUSD" readonly="readonly">
+        </div>
+        <div class="d2">
+            <p class="curr">EUR (euro)</p>
+            <input type="text" name="inCurrEUR" class="inCurr" id="inCurrEUR" readonly="readonly">
+        </div>
+    </div>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+<script src="script.js"></script>
+</body>
+</html>
